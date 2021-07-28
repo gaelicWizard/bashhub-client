@@ -24,7 +24,7 @@ contains_element() {
 }
 
 # Make sure our bin directory is on our path
-__bh_path_add "$HOME/.bashhub/bin"
+__bh_path_add "${BH_HOME_DIRECTORY:=$HOME/.bashhub}/bin"
 
 #
 # Function to be run by our preexec hook.
